@@ -222,6 +222,20 @@
   --fretboard-toggle-button-border-color: var(--peach);
 }
 
+/* Light mode (default) */
+.theme-text-dark {
+  display: none;
+}
+
+/* Dark mode overrides */
+[color-mode='dark'] .theme-text-light {
+  display: none;
+}
+
+[color-mode='dark'] .theme-text-dark {
+  display: inline;
+}
+
 html {
   font-size: 100%;
 }
