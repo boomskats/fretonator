@@ -8,7 +8,7 @@ exports[`ChipsComponent should match the snapshot 1`] = `
 >
   <app-chips>
     <div
-      class="chips"
+      class="chips chips--rounded"
     >
       <app-chip>
         <a
